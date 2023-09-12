@@ -22,6 +22,9 @@ def main(numero_de_tiros, numero_de_intentos):
 
     probabilidad_tiros_con_1 = tiros_con_1 / numero_de_intentos
     print(f'Probabilidad de no obtener por lo menos un 1 en {numero_de_tiros} tiros = {probabilidad_tiros_con_1}')
+    print(f'Probabilidad de obtener por lo menos un 1 en {numero_de_tiros} tiros = {1 - probabilidad_tiros_con_1}')
+
+
 
 
 
