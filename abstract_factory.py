@@ -16,6 +16,7 @@ class CanadaOrderService(OrderService):
     def place_order(self, item, quantity):
         print(f"Orden en Canadá: {quantity} {item}(s)")
 
+
 # Factory abstracto para crear instancias de OrderService
 class OrderServiceFactory:
     @staticmethod
